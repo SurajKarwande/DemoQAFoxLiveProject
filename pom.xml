@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.11.0</version>
+			<version>3.13.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -36,11 +36,11 @@
 			<artifactId>jackson-core-asl</artifactId>
 			<version>1.9.13</version>
 		</dependency>
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>2.2.2</version>
-		</dependency>
+			<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.0</version>
+        </dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -52,5 +52,5 @@
 			<artifactId>selenium-htmlunit-driver</artifactId>
 			<version>2.52.0</version>
 		</dependency>
-	</dependencies>
+		</dependencies>
 </project>

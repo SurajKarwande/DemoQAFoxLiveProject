@@ -1,0 +1,87 @@
+2022-10-22 19:35:49 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-22 19:38:03 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-22 19:39:08 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-22 19:40:34 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-22 19:42:46 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-22 19:42:46 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-22 19:42:46 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-10-23 16:45:56 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 16:46:18 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 16:46:18 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 16:46:18 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-10-23 16:47:34 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 16:47:56 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 16:47:56 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 16:47:56 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-10-23 16:52:16 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:04:06 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:04:13 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:04:13 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:04:15 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:04:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:04:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 17:10:23 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:10:29 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:10:29 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:10:31 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:10:31 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:10:31 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 17:11:27 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:11:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:11:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:11:35 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:11:35 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:11:35 [INFO ] [Base] - [closeBrowser] Scenario Status is: failed
+2022-10-23 17:11:35 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:11:35 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:11:35 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 17:50:05 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:50:05 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:50:19 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:52:19 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:52:19 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:52:27 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:53:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:53:24 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 17:53:36 [INFO ] [Browser] - [takeScreenshot] Exception has Occured while taking screenshot
+2022-10-23 17:53:36 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 17:53:36 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 18:17:59 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 18:17:59 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 22:07:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:07:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 22:09:59 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:09:59 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 22:13:40 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started549049813
+2022-10-23 22:13:40 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:13:40 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 22:20:22 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:20:22 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 22:20:23 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1114852209
+2022-10-23 22:20:23 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:20:23 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 22:34:48 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:34:48 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 22:34:49 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1462809875
+2022-10-23 22:34:50 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 22:34:50 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-23 23:57:58 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 23:57:58 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-23 23:58:00 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started577672681
+2022-10-23 23:58:00 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-23 23:58:00 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-24 00:24:24 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:24:24 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-24 00:24:26 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1734909057
+2022-10-24 00:24:26 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:24:26 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-24 00:37:50 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:37:50 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-24 00:37:52 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1462809875
+2022-10-24 00:37:52 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:37:52 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-24 00:39:35 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:39:35 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-24 00:39:36 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1462809875
+2022-10-24 00:39:36 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by provoiding all the details
+2022-10-24 00:39:36 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
