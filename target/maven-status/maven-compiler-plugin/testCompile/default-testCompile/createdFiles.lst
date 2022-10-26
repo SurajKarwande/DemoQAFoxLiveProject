@@ -1,0 +1,3 @@
+com\tutorialsninja\automation\runner\Runner.class
+com\tutorialsninja\automation\stepdef\Hooks.class
+com\tutorialsninja\automation\stepdef\Register.class

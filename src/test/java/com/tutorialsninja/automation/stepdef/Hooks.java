@@ -22,7 +22,12 @@ public class Hooks {
 	Base.reader=new PropertyFileReader();
 	Browser.startBrowser();
 	Browser.maximize();
+	
+	
+	
 	}
+	
+	
 	@After
 	public void closeBrowser(Scenario scenario){
 	if(scenario.isFailed()){

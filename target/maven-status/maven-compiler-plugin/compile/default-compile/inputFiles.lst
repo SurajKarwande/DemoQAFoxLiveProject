@@ -1,5 +1,9 @@
-C:\Users\dmothe\workspace\TutorialsNinja\src\main\java\com\tutorialsninja\automation\config\ConfigurationReader.java
-C:\Users\dmothe\workspace\TutorialsNinja\src\main\java\com\tutorialsninja\automation\framework\Browser.java
-C:\Users\dmothe\workspace\TutorialsNinja\src\main\java\com\tutorialsninja\automation\base\Base.java
-C:\Users\dmothe\workspace\TutorialsNinja\src\main\java\com\tutorialsninja\automation\config\PropertyFileReader.java
-C:\Users\dmothe\workspace\TutorialsNinja\src\main\java\com\tutorialsninja\automation\util\PathHelper.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\framework\Elements.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\framework\Waits.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\config\PropertyFileReader.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\framework\Browser.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\framework\Test.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\pages\HeadersSection.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\util\PathHelper.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\config\ConfigurationReader.java
+D:\Selenium My Project\DemoQAFoxLiveProject\src\main\java\com\tutorialsninja\automation\base\Base.java

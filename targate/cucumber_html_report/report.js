@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 220770961700,
+  "duration": 2805992000,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,43 +99,414 @@ formatter.match({
   "location": "Register.i_launch_the_application()"
 });
 formatter.result({
-  "duration": 55418900,
-  "error_message": "java.lang.ExceptionInInitializerError\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:574)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:530)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.\u003cinit\u003e(LocalizedXStreams.java:50)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n\tat ✽.Given I launch the application(FeatureFiles/Register.feature:5)\r\nCaused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not \"opens java.util\" to unnamed module @cc285f4\r\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)\r\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)\r\n\tat java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)\r\n\tat java.base/java.lang.reflect.Field.setAccessible(Field.java:172)\r\n\tat cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)\r\n\tat cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.\u003cclinit\u003e(TreeMapConverter.java:50)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:574)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:530)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.\u003cinit\u003e(LocalizedXStreams.java:50)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
-  "status": "failed"
+  "duration": 3439343600,
+  "status": "passed"
 });
 formatter.match({
   "location": "Register.i_navigate_to_Account_Registration_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1872266700,
+  "status": "passed"
 });
 formatter.match({
   "location": "Register.i_provide_the_all_the_below_valid_details(DataTable)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 895545400,
+  "status": "passed"
 });
 formatter.match({
   "location": "Register.i_select_the_Privacy_Policy()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 173303900,
+  "status": "passed"
 });
 formatter.match({
   "location": "Register.i_click_on_Continew_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 827238300,
+  "status": "passed"
 });
 formatter.match({
   "location": "Register.i_should_see_that_the_User_account_has_successfully_created()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 102474200,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 354939500,
+  "duration": 1143366600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1622234200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Verify whether the user is not allowed to register on skiping the mandatory fields",
+  "description": "",
+  "id": "registration-functionality-scenarios;verify-whether-the-user-is-not-allowed-to-register-on-skiping-the-mandatory-fields",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 17,
+      "name": "@Register"
+    },
+    {
+      "line": 17,
+      "name": "@Two"
+    }
+  ]
+});
+formatter.step({
+  "line": 19,
+  "name": "I launch the application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 20,
+  "name": "I navigate to Account Registration page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "I click on Continew Button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I should see that the User account is not created",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 23,
+  "name": "I should see the error messages informing the User to fill the mandatory fields",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Register.i_launch_the_application()"
+});
+formatter.result({
+  "duration": 3324601000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_navigate_to_Account_Registration_page()"
+});
+formatter.result({
+  "duration": 3502132200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_click_on_Continew_Button()"
+});
+formatter.result({
+  "duration": 468790800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_should_see_that_the_User_account_is_not_created()"
+});
+formatter.result({
+  "duration": 82680100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_should_see_the_error_messages_informing_the_User_to_fill_the_mandatory_fields()"
+});
+formatter.result({
+  "duration": 395768100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1134608700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1468513900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 26,
+  "name": "Verify whether the user is able to register into the application by opting for Newsletter subsciption",
+  "description": "",
+  "id": "registration-functionality-scenarios;verify-whether-the-user-is-able-to-register-into-the-application-by-opting-for-newsletter-subsciption",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 25,
+      "name": "@Register"
+    },
+    {
+      "line": 25,
+      "name": "@Three"
+    }
+  ]
+});
+formatter.step({
+  "line": 27,
+  "name": "I launch the application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 28,
+  "name": "I navigate to Account Registration page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I provide the all the below valid details",
+  "rows": [
+    {
+      "cells": [
+        "FirstName",
+        "Suraj"
+      ],
+      "line": 30
+    },
+    {
+      "cells": [
+        "LastName",
+        "Karwande"
+      ],
+      "line": 31
+    },
+    {
+      "cells": [
+        "Email",
+        "suraj.karwande2@gmail.com"
+      ],
+      "line": 32
+    },
+    {
+      "cells": [
+        "Telephone",
+        "8668229150"
+      ],
+      "line": 33
+    },
+    {
+      "cells": [
+        "Password",
+        "Suraj@123"
+      ],
+      "line": 34
+    }
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 35,
+  "name": "I select the Privacy Policy",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "I subscribe to Newsletter",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "I click on Continew Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "I should see that the User account has successfully created",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Register.i_launch_the_application()"
+});
+formatter.result({
+  "duration": 4194619100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_navigate_to_Account_Registration_page()"
+});
+formatter.result({
+  "duration": 1795252900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_provide_the_all_the_below_valid_details(DataTable)"
+});
+formatter.result({
+  "duration": 987256000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_select_the_Privacy_Policy()"
+});
+formatter.result({
+  "duration": 177099900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_subscribe_to_Newsletter()"
+});
+formatter.result({
+  "duration": 187277500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_click_on_Continew_Button()"
+});
+formatter.result({
+  "duration": 652166100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_should_see_that_the_User_account_has_successfully_created()"
+});
+formatter.result({
+  "duration": 86911600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1022306800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1420761900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 41,
+  "name": "Verify whether the user is restricted from creating a duplicate account",
+  "description": "",
+  "id": "registration-functionality-scenarios;verify-whether-the-user-is-restricted-from-creating-a-duplicate-account",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 40,
+      "name": "@Register"
+    },
+    {
+      "line": 40,
+      "name": "@Four"
+    }
+  ]
+});
+formatter.step({
+  "line": 42,
+  "name": "I launch the application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 43,
+  "name": "I navigate to Account Registration page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "I provide the below duplicate details",
+  "rows": [
+    {
+      "cells": [
+        "FirstName",
+        "Suraj"
+      ],
+      "line": 45
+    },
+    {
+      "cells": [
+        "LastName",
+        "Karwande"
+      ],
+      "line": 46
+    },
+    {
+      "cells": [
+        "Email",
+        "suraj.karwande@gmail.com"
+      ],
+      "line": 47
+    },
+    {
+      "cells": [
+        "Telephone",
+        "8668229150"
+      ],
+      "line": 48
+    },
+    {
+      "cells": [
+        "Password",
+        "Suraj@123"
+      ],
+      "line": 49
+    }
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 50,
+  "name": "I select the Privacy Policy",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 51,
+  "name": "I click on Continew Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "I should see that the User is restricted from creating duplicate account",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Register.i_launch_the_application()"
+});
+formatter.result({
+  "duration": 7428505400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_navigate_to_Account_Registration_page()"
+});
+formatter.result({
+  "duration": 2187417200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_provide_the_below_duplicate_details(DataTable)"
+});
+formatter.result({
+  "duration": 946037400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_select_the_Privacy_Policy()"
+});
+formatter.result({
+  "duration": 175001600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_click_on_Continew_Button()"
+});
+formatter.result({
+  "duration": 636880200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Register.i_should_see_that_the_User_is_restricted_from_creating_duplicate_account()"
+});
+formatter.result({
+  "duration": 62896700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1161095700,
   "status": "passed"
 });
 });
