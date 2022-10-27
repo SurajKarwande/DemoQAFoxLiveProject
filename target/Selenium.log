@@ -301,3 +301,38 @@
 2022-10-28 00:27:18 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started551229951
 2022-10-28 00:27:41 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
 2022-10-28 00:27:41 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-10-28 01:17:43 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2022-10-28 01:17:44 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 01:18:08 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started977650730
+2022-10-28 01:20:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2022-10-28 01:20:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-10-28 02:05:23 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2022-10-28 02:05:23 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:05:26 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1497268815
+2022-10-28 02:05:43 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2022-10-28 02:05:43 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-10-28 02:20:21 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:20:21 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:20:24 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started508760925
+2022-10-28 02:20:38 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:20:38 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2022-10-28 02:30:56 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:30:56 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:30:59 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1497268815
+2022-10-28 02:31:14 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:31:14 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2022-10-28 02:34:10 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:34:10 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:34:12 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1497268815
+2022-10-28 02:34:25 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:34:25 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-10-28 02:38:47 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2022-10-28 02:38:47 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:38:49 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1228798862
+2022-10-28 02:39:02 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2022-10-28 02:39:02 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2022-10-28 02:39:03 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:39:03 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2022-10-28 02:39:05 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1275011461
+2022-10-28 02:39:17 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2022-10-28 02:39:17 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
