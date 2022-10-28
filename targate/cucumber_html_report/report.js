@@ -1,151 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Search.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("FeatureFiles/Orders.feature");
 formatter.feature({
   "line": 1,
-  "name": "Search functionality scenarios",
+  "name": "End to End scenarios for placing orders",
   "description": "",
-  "id": "search-functionality-scenarios",
+  "id": "end-to-end-scenarios-for-placing-orders",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2427071500,
+  "duration": 2319917900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Verify whether the User is able to search for the products",
+  "line": 3,
+  "name": "Verify whether the User is able to place orders",
   "description": "",
-  "id": "search-functionality-scenarios;verify-whether-the-user-is-able-to-search-for-the-products",
+  "id": "end-to-end-scenarios-for-placing-orders;verify-whether-the-user-is-able-to-place-orders",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
-      "name": "@Search"
+      "line": 2,
+      "name": "@Orders"
     },
     {
-      "line": 3,
+      "line": 2,
       "name": "@One"
     }
   ]
 });
 formatter.step({
-  "line": 5,
-  "name": "I launch the application",
+  "line": 4,
+  "name": "I login to the application",
   "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I add a product to the bag and checkout",
+  "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "I search for a product \"Samsung SyncMaster 941BW\"",
-  "keyword": "When "
+  "name": "I place an order",
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "I should see the product in the search results",
+  "name": "I should see that the order is placed successfuly",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Register.i_launch_the_application()"
+  "location": "Orders.i_login_to_the_application()"
 });
 formatter.result({
-  "duration": 9732913000,
+  "duration": 14065286400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Samsung SyncMaster 941BW",
-      "offset": 24
-    }
-  ],
-  "location": "Search.i_search_for_a_product(String)"
+  "location": "Orders.i_add_a_product_to_the_bag_and_checkout()"
 });
 formatter.result({
-  "duration": 2768028800,
+  "duration": 13565965900,
   "status": "passed"
 });
 formatter.match({
-  "location": "Search.i_should_see_the_product_in_the_search_results()"
+  "location": "Orders.i_place_an_order()"
 });
 formatter.result({
-  "duration": 56579100,
+  "duration": 3639766100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Orders.i_should_see_that_the_order_is_placed_successfuly()"
+});
+formatter.result({
+  "duration": 74193900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 956983500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1503866800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "Verify whether the User is informed when the product being searched is not available",
-  "description": "",
-  "id": "search-functionality-scenarios;verify-whether-the-user-is-informed-when-the-product-being-searched-is-not-available",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@Search"
-    },
-    {
-      "line": 9,
-      "name": "@Two"
-    }
-  ]
-});
-formatter.step({
-  "line": 11,
-  "name": "I launch the application",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 12,
-  "name": "I search for a product \"Apple iPhone\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I should see a message informing \"There is no product that matches the search criteria.\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Register.i_launch_the_application()"
-});
-formatter.result({
-  "duration": 9672965100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Apple iPhone",
-      "offset": 24
-    }
-  ],
-  "location": "Search.i_search_for_a_product(String)"
-});
-formatter.result({
-  "duration": 2229896700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "There is no product that matches the search criteria.",
-      "offset": 34
-    }
-  ],
-  "location": "Search.i_should_see_a_message_informing(String)"
-});
-formatter.result({
-  "duration": 31580700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 831609100,
+  "duration": 1107697700,
   "status": "passed"
 });
 });
